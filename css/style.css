@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 66px;
+    border: 2px solid red;
+    position: relative;
+    width: 100%;
+    
+}
+header{
+    position: absolute;
+    left: 200px;
+    height: 65px;
+    width: 80%;
+    border: 2px green solid;
+}
+nav{
+
+}
