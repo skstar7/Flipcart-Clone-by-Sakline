@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
-div{
+#pt_header{
     height: 66px;
     border: 2px solid red;
     position: relative;
@@ -15,8 +15,26 @@ header{
     left: 200px;
     height: 65px;
     width: 80%;
-    border: 2px green solid;
+    /* border: 2px green solid; */
+    display: flex;
 }
-nav{
 
+#section1{
+    display: flex;
+}
+
+#section2{
+    display: flex;
+}
+
+#section1>div{
+
+    height: 65px;
+    width: 150px;
+    border: 2px pink solid;
+}
+#section2>div{
+    height: 65px;
+    width: 150px;
+    border: 2px pink solid;
 }
