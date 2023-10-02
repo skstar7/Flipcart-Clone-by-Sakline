@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: opx;
+}
+
+
+#headerDiv{
+    height: 54px;
+    width: auto;
+    background-color:#2874f0;
+    /* RGB: (4, 123, 213); */
+    color: #f0f0f0;
+}
+
+header{
+    display: flex;
+    color: f0f0f0;
+    position: relative;
+}
+
+
+#section1{
+    display: flex;
+    position: absolute;
+    left: 365px;
+    border: red solid 2px;
+    
+}
+#section2{
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+
+#section1>div{
+    height: 54px;
+}
+h1_1{
+    height: 27px;
+    width: 27%;
+    border: rgb(28, 28, 190) solid;
+}
+
+
