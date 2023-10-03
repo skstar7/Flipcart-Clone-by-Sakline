@@ -6,11 +6,12 @@
 
 
 #headerDiv{
-    height: 54px;
+    height: 56px;
     width: auto;
     background-color:#2874f0;
     /* RGB: (4, 123, 213); */
     color: #f0f0f0;
+
 }
 
 header{
@@ -23,8 +24,9 @@ header{
 #section1{
     display: flex;
     position: absolute;
-    left: 365px;
+    left: 360px;
     border: red solid 2px;
+    padding: 10px;
     
 }
 #section2{
@@ -41,5 +43,46 @@ h1_1{
     width: 27%;
     border: rgb(28, 28, 190) solid;
 }
+
+
+
+
+
+
+
+/* nav bar style start  */
+#navbar{
+    display: flex;
+    height: 39px;
+    
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 0px rgb(196, 192, 192);
+}
+#navbar>div{
+    font-weight: bold;
+
+}
+
+
+
+/* asideAndArticle design starts */
+
+#asideAndArticle{
+height: 555px;
+width: auto;
+background-color: beige;
+margin-top: 0px;
+}
+
+aside{
+    height: 525px;
+    width: 336px;
+    background-color: #2874f0;
+    margin-left: 264px;
+    margin-top: 16px;
+
+}
+
+
 
 
