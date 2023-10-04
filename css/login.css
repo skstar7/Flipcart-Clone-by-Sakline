@@ -68,6 +68,7 @@ h1_1{
 /* asideAndArticle design starts */
 
 #asideAndArticle{
+    display: flex;
 height: 555px;
 width: auto;
 background-color: beige;
@@ -81,6 +82,12 @@ aside{
     margin-left: 264px;
     margin-top: 16px;
 
+}
+
+article{
+    height:525px;
+    width:auto;
+    background-color: rgb(180, 177, 174);
 }
 
 
