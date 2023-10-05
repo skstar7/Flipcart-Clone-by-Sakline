@@ -92,4 +92,8 @@ article{
 
 
 
-
+footer{
+    height: 300px;
+    width: auto;
+    background-color: black;
+}
