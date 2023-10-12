@@ -8,50 +8,119 @@
     /* border: 2px solid red; */
     /* position: relative; */
     width: 100%;
+    /* background-color: aqua; */
+
     
 }
 header{
     /* position: absolute; */
     left: 200px;
-    height: 65px;
-    width: 90%;
-    border: 2px rgb(30, 8, 10) solid;
+    height: 66px;
+    width: 1600px;
+    /* border: 2px rgb(30, 8, 10) solid; */
     display: flex;
     margin: auto;
 }
 
 #section1{
+    height: 40px;
+    width: 1002.94px;
+    /* background-color: pink; */
+    margin: 10px auto;
+    align-items: center;
     display: flex;
-    position: relative;
-    height: 65px;
-    width: 1000px;
 
-}
-
-#section2{
-    display: flex;
 }
 
 #section1>div{
-    position: absolute;
-    height: 65px;
-    width: 150px;
-    /* border: 2px pink solid; */
-}
-#section2>div{
-    height: 65px;
-    width: 150px;
-    /* border: 2px pink solid; */
+
+    font-size: 12px;
+    /* border: red solid; */
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
 }
 
+h1{
+    height: 40px;
+
+    width: 130px;
+}
+
+
 #h1_1{
-    border: 2px green solid;
-    padding-right: px;
+    margin-left: 30px;
+}
+#h1_2{
+    margin-left: 65px;
+    padding-left: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+#h2{
+    margin-left: 35px;
+    display: flex;
+    height: 40px;
+
+    /* border: red solid; */
+    /* width: 836.94px; */
+    width: 725px;
+    border-radius: 10px;
+    background-color:#f0f5ff;
+
+}
+#h2_1{
+    height: 40;
+    width: 44;
+    text-align: center;
+    padding: 7px;
+}
+
+
+#h2 i{
+    font-size: 24px;   
+}
+#h2_2 input{
+    height: 40px;
+    width: 681px;
+    border-style: none;
+    background-color: transparent;
+}
+
+
+
+
+#section2{
+    display: flex;
+    width: 541.06px;
+    height: 42px;
+    /* border: solid red; */
+    margin: 10px auto;
+    justify-content: space-between;
+}
+#section2>div{
+    /* border: yellow solid; */
+    height: 42px;
+    width: max-content;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    /* text-decoration: none; */
 }
 
 #h3{
-    right: 0px;
+    width: 193.84px;
 }
-#h2{
-    right: 200px;
+#h4{
+    width: 160.78px;
 }
+#h5{
+    width: 104.44px;
+}
+#h6{
+    width: 82px;
+}
+
+

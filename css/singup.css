@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 80px;
+    width: auto;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    height: 50px;
+    width: 200px;
+}
