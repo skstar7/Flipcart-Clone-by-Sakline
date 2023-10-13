@@ -124,3 +124,83 @@ a{
 }
 
 
+
+#MiddlePart{
+width: auto;
+/* height: 1000px; */
+margin-top: 20px;
+background-color: rgb(242, 234, 234);
+/* background-color: red; */
+/* border: red solid; */
+/* position: relative; */
+}
+
+
+
+
+/* nav bar css start */
+nav{
+    /* position: absolute; */
+    display: flex;
+    height: 127px;
+    width: 1600px;
+    margin: 10px auto;
+    /* margin-top: 10px; */
+    background-color: white;
+    justify-content: space-around   ;
+    z-index: 1000000;
+    
+}
+
+
+#Galary{
+  margin: 10px auto;
+    height: 265.39px;
+    width: 1600px;
+    position: relative;
+}
+#Galary>div{
+  position: absolute;
+}
+#g1{
+  top: 79px;
+
+}
+#g2{
+  right: 0px;
+  top: 79px;
+
+}
+
+
+
+#Galary button{
+  height: 88px;
+  width: 40px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+}
+
+
+#sponser{
+  width: 1600px;
+  height: 138.13px;
+  margin: 10px auto;
+
+}
+
+#currentBest{
+  height: 281.88px;
+  width: 1600px;
+  display:flex;
+  margin: 10px auto;
+  justify-content: space-between;
+  
+}
+
+#currentBest>div{
+  height: 281.88px;
+width: 525.33px;
+
+}
