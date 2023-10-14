@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    
 }
 #pt_header{
     height: 66px;
@@ -127,11 +128,11 @@ a{
 
 #MiddlePart{
 width: auto;
+height: auto;
 /* height: 1000px; */
-margin-top: 20px;
 background-color: rgb(242, 234, 234);
 /* background-color: red; */
-/* border: red solid; */
+border:  rgb(242, 234, 234)  solid;
 /* position: relative; */
 }
 
@@ -144,12 +145,13 @@ nav{
     display: flex;
     height: 127px;
     width: 1600px;
-    margin: 10px auto;
-    /* margin-top: 10px; */
+    margin: auto;
+    margin-top: 5px;
+
     background-color: white;
     justify-content: space-around   ;
     z-index: 1000000;
-    
+    /* border: red solid; */
 }
 
 
@@ -194,7 +196,7 @@ nav{
   height: 281.88px;
   width: 1600px;
   display:flex;
-  margin: 10px auto;
+    margin: 10px auto;
   justify-content: space-between;
   
 }
