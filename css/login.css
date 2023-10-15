@@ -27,6 +27,7 @@ header{
     height: 56px;
     width: 727px;
     left: 360px;
+    margin-left: 295px;
     /* border: red solid 2px; */
 }
 
@@ -34,7 +35,35 @@ header{
     width: 137px;
     height: 56px;
     /* border: solid green; */
+    position: relative;
+    
 }
+
+
+
+#h1 div{
+    position: absolute;
+    text-align: end;
+  
+    /* justify-content: end; */
+    /* border: 2px black solid; */
+    right: 2px;
+}
+#h1_1{
+    top: 9px;
+}
+#h1_2{
+    width: 75px;
+    height: 15.39px;
+    font-size: 11px;
+    font-style: italic;
+    /* margin-top: -1px; */
+    font-weight: 500;
+    margin-right: 2px;
+    top: 29.11px;
+    
+}
+
 
 #h2{
     display: flex;
@@ -42,6 +71,7 @@ header{
     height: 56px;
     border: solid rgb(128, 15, 0);
 }
+
 
 
 #section2{
