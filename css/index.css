@@ -166,6 +166,7 @@ nav{
 }
 #g1{
   top: 79px;
+  z-index: 9999;
 
 }
 #g2{
@@ -183,6 +184,49 @@ nav{
   background-color: white;
   border: none;
 }
+#slider{
+    display: flex;
+    padding: 0px 10px;
+
+}
+.slider_a{
+    width: 100%;
+    padding-right: 20px;
+    animation: 15s sliderimage1 infinite;
+
+}
+
+@keyframes  sliderimage1{
+
+    0%,1%,2%,3%,4%,5%,6%,7%,8%,9%,10%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-100%);
+
+    }
+    40%{
+        transform: translateX(-200%);
+
+    }
+    60%{
+        transform: translateX(-300%);
+
+    }
+    80%{
+        transform: translateX(-400%);
+
+    }
+    95%{
+        transform: translateX(-500%);
+
+    }
+}
+
+
+
+
+
 
 
 #sponser{
@@ -205,4 +249,82 @@ nav{
   height: 281.88px;
 width: 525.33px;
 
+}
+
+
+#footer1{
+    height: 330px;
+    width: auto;
+    background-color: #172337;
+    color: white;
+    display: grid;
+    grid-template-columns: 8fr 4fr ;
+}
+
+.left_panel{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+.right_panel{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+
+
+.left_panel .footerHeader{
+    width: fit-content;
+color: #878787;
+font-size: 12px;
+font-weight: 400;
+text-align: left;   
+line-height: 1.4;
+margin-left: 100px;
+margin-top: 50px;
+
+
+}
+.left_panel .footerHeader~div{
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    /* border: yellow solid; */
+    font-size: 12px;
+    text-align: justify  ;
+    width: fit-content  ;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+
+
+.right_panel .footerHeader{
+    width: fit-content;
+color: #878787;
+font-size: 12px;
+font-weight: 400;
+text-align: left;   
+line-height: 1.4;
+margin-left: 10px;
+margin-top: 50px;
+
+
+}
+
+.right_panel .footerHeader~div{
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    /* border: yellow solid; */
+    font-size: 12px;
+    text-align: justify  ;
+    width: fit-content  ;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+#teliphone{
+    text-decoration: none;
+    color: #2874f0;
 }
