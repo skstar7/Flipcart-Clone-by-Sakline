@@ -6,6 +6,8 @@
 
 
 #headerDiv{
+    position: sticky;
+    top: 0;
     height: 62px;
     width: auto;
     background-color:#2874f0;
@@ -189,6 +191,7 @@ header{
     font-family: Roboto,Arial,sans-serif;
     padding-top: 15px;
     padding-left: 20px;
+    text-decoration: none;
 }
 
 
@@ -247,7 +250,7 @@ aside span{
 
 #aside1{
     height: 40px;
-    width: 100px;
+    width: auto;
     font-size: 30px;
     font-weight: 600;
     color: #fff; 
@@ -260,12 +263,12 @@ aside span{
 }
 #aside2{
     width: 270px;
-    height: 50px;
+    height: auto;
     /* border:red solid; */
     color: #dbdbdb;
     font-size: 20px;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 

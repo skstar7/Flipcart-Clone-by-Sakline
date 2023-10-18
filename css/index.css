@@ -5,15 +5,22 @@
     
 }
 #pt_header{
+   
+    position: sticky;
+    top: 0;
+    z-index: 9999;
     height: 66px;
     /* border: 2px solid red; */
-    /* position: relative; */
     width: 100%;
     /* background-color: aqua; */
 
     
 }
 header{
+    position: sticky;
+    top: 0;
+  
+
     /* position: absolute; */
     left: 200px;
     height: 66px;
@@ -57,6 +64,7 @@ h1{
 
 a{
     text-decoration: none;
+    color: black;
 }
 #h2{
     margin-left: 35px;
@@ -166,13 +174,14 @@ nav{
 }
 #g1{
   top: 79px;
-  z-index: 9999;
+  z-index: 999999;
 
 }
 #g2{
   right: 0px;
   top: 79px;
-
+  z-index: 999999;
+color: black;
 }
 
 
@@ -198,7 +207,7 @@ nav{
 
 @keyframes  sliderimage1{
 
-    0%,1%,2%,3%,4%,5%,6%,7%,8%,9%,10%{
+    0%{
         transform: translateX(0);
     }
     20%{

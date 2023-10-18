@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-
-* {
+*{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: opx;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #eaedef;
-}
+
 
 #headerDiv{
     height: 62px;
@@ -197,140 +192,146 @@ header{
 }
 
 
-/* section 1 */
 
 
 
-
-/* footer */
-footer {
-    margin-top: 26px;
-    background-color: white;
-    padding: 25px;
-    text-align: center;
-    font-size: 14px;
-    color: #878787 ;
-}
-.nav-bar{
-    height: 40px;
-    width: auto;
-    border: 1px solid white;
+/* nav bar style start  */
+#navbar{
     display: flex;
-
-}
-.nav-bar-div{
-    display: flex;
-    height: 40px;
-    width: 1200px;
-    display: flex;
-    margin-left: 160px;
-    /* border: 2px solid; */
-    
-}
-.navv{
-    height: 40px;
-    width: 133.3px;
-    /* border: 0.5px solid black; */
-   text-align: center;
- padding-top: 6px;
- justify-content: space-around;
- align-items: center;
- height: 100%;
- width: auto;
- margin: 0 auto;
-
-}
-
-#loginForm{
-    height: 520px;
-    width: 1200px;
-    border: 2px solid white;
-    margin: 30px auto;
-    /* display: flex; */
-    text-align: center;
-    box-shadow: 0 0 2px;
-    background-color: white;
-}
-
-
-
-/* .ftr{
-    background-color: black;
-    height: 400px;
-    width: auto;
-} */
-
-/* .ipfield{
-    height: 50px;
-    width: 450px;
-    border: 2px solid;
-
-} */
-
-.upperform{
-    height: 50px;
-    width: 1200px;
-    /* border: 2px solid black; */
-    display: flex;
-}
-.left-name-cart{
-    height: 50px;
-    width: 600px;
-    padding-top: 15px;
-    font-size: 20px;
-}
-/*  */
-
-.spaceinform{
-    height: 10px;
-    width: 1202px;
-    /* border: 2px solid ; */
-    background-color: #eaedef;
-    margin-left: -5px;
-}
-.maincart{
-    height: 460px;
-    width: 1200px;
-    /* border: 2px solid black; */
-}
-.imagecart{
-    height: 200px;
-    width: 250px;
-    margin: 30px auto;
-    background-image: url(https://rukminim2.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90);
-    background-size: cover;
-}
-.cartdetails{
-    height: 180px;
-    width: 250px;
-    margin: 30px auto;
-    /* border: 2px solid; */
-}
-#x{
-    font-size: 20px;
-    
-}
-#y{
-    font-size: 12px;
-}
-.loginbutton{
     height: 42px;
-    width: 150px;
-    /* border: 2px solid black; */
-    margin: 40px auto;
-    background-color: rgb(242, 77, 17);
-    color: white;
-    padding-top: 10px;
+    
+    justify-content: center;
+    box-shadow: 0px 10px 5px 0px rgb(38, 37, 37);
 }
-#loginbuttonlink{
-    text-decoration: none;
-    color: white;
+#navbar>div{
+    font-weight: bold;
+    display: inline-block; /* Make the div inline-block so it expands only as much as its content */
+   height: 42px;
+    padding: 10px 35px;/* Optional: Add padding for spacing between content and div border */
+    /* margin: -10px;  */
+    /* border: red solid; */
 }
-#loginbuttonlink:visited{
-    text-decoration: none;
-    color: white;
+#navbar i{
+    color: #9f9797;
 }
-#loginbuttonlink:link{
-    text-decoration: none;
+#navbar>div:hover{
+    
+}
+
+
+/* asideAndArticle design starts */
+
+#side_bar{
+    width: 270px;
+    height: auto;
+    background-color: #d9dbde;
+}
+#side_bar>div{
+    border: red solid;
+   
+}
+ul{
+    list-style-type: none;
+}
+
+
+#ss1{
+    height: 70px;
+    width: 100%;
+}
+#cat{
+    height: 300px;
+    width: 100%;
+    
+}
+#Gender{
+    height: 70px;
+    width: 100%;
+}
+
+
+
+#footer1{
+    height: 330px;
+    width: auto;
+    background-color: #172337;
     color: white;
+    display: grid;
+    grid-template-columns: 8fr 4fr ;
+}
+
+.left_panel{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+.right_panel{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+
+
+.left_panel .footerHeader{
+    width: fit-content;
+color: #878787;
+font-size: 12px;
+font-weight: 400;
+text-align: left;   
+line-height: 1.4;
+margin-left: 100px;
+margin-top: 50px;
+
+
+}
+.left_panel .footerHeader~div{
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    /* border: yellow solid; */
+    font-size: 12px;
+    text-align: justify  ;
+    width: fit-content  ;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+
+
+.right_panel .footerHeader{
+    width: fit-content;
+color: #878787;
+font-size: 12px;
+font-weight: 400;
+text-align: left;   
+line-height: 1.4;
+margin-left: 10px;
+margin-top: 50px;
+
+
+}
+
+.right_panel .footerHeader~div{
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    /* border: yellow solid; */
+    font-size: 12px;
+    text-align: justify  ;
+    width: fit-content  ;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+#teliphone{
+    text-decoration: none;
+    color: #2874f0;
+}
+
+
+#xyz{
+    height: 80;
+    width: auto;
+    background-color: #2a62c1;
+
 }
