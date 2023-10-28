@@ -127,11 +127,19 @@ a{
 }
 #h5{
     width: 104.44px;
+    border: gray soli;
 }
 #h6{
     width: 82px;
 }
 
+#h5>a {
+    display: flex;
+}
+
+#h5_2{
+    padding-top: 5px;
+}
 
 
 #MiddlePart{
@@ -157,9 +165,13 @@ nav{
     margin-top: 5px;
 
     background-color: white;
-    justify-content: space-around   ;
+    justify-content: space-around  ;
     z-index: 1000000;
     /* border: red solid; */
+}
+
+nav>div{
+    margin-top: 15px;
 }
 
 

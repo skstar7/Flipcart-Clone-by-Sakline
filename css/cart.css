@@ -242,14 +242,14 @@ footer {
 }
 
 #loginForm{
-    height: 520px;
+    height: auto;
     width: 1200px;
     border: 2px solid white;
     margin: 30px auto;
     /* display: flex; */
     text-align: center;
-    box-shadow: 0 0 2px;
-    background-color: white;
+    box-shadow: 0 0 10px rgb(70, 65, 65);
+    background-color: #eaedef;
 }
 
 
@@ -270,28 +270,40 @@ footer {
 .upperform{
     height: 50px;
     width: 1200px;
-    /* border: 2px solid black; */
+    /* border: 2px solid black;  */
+    background-color: white;
     display: flex;
+    justify-content: space-around;
 }
 .left-name-cart{
     height: 50px;
-    width: 600px;
+    width: 300px;
     padding-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
+   
+
 }
+
+#left-name-cart_1{
+    color: #2874f0;
+    border-bottom: #2874f0 solid;
+}
+#left-name-cart_2{
+    color: #212121;
+}
+
+
+
+
 /*  */
 
-.spaceinform{
-    height: 10px;
-    width: 1202px;
-    /* border: 2px solid ; */
-    background-color: #eaedef;
-    margin-left: -5px;
-}
+
 .maincart{
     height: 460px;
     width: 1200px;
-    /* border: 2px solid black; */
+    margin-top: 10px;   
+    border: 2px solid white;
+    background-color: white;        
 }
 .imagecart{
     height: 200px;
@@ -306,12 +318,15 @@ footer {
     margin: 30px auto;
     /* border: 2px solid; */
 }
+
 #x{
     font-size: 20px;
+    color: #212121;
     
 }
 #y{
     font-size: 12px;
+    color: #212121;
 }
 .loginbutton{
     height: 42px;
