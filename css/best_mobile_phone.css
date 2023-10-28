@@ -205,7 +205,7 @@ header{
     
     justify-content: center;
     box-shadow: 0px 0px 5px 0px rgb(38, 37, 37);
-
+    /* border: red solid; */
 }
 #navbar>div{
     font-weight: bold;
@@ -223,108 +223,46 @@ header{
 }
 
 
-/* asideAndArticle design starts */
-
-#asideAndArticle{
-    display: flex;
-height: 595px;
-width: auto;
-background-color: beige;
-margin-top: 0px;
-}
-
-aside{
-    height: 565px;
-    width: 376px;
-    background-color: #2874f0;
-    margin-left: 564px;
-    margin-top: 16px;
-    background-image: url(https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png);
-    background-position: center 85%;
-    background-repeat: no-repeat;
-
-}
-aside span{
-    display: block;
-
-}
-
-#aside1{
-    height: 40px;
-    width: auto;
-    font-size: 30px;
-    font-weight: 600;
-    color: #fff; 
-    margin-left: 40px;
-    margin-top: 50px;
-    font-family: Roboto,Arial,sans-serif;
-    letter-spacing: 0;
+#frame_name{
+    font-weight: 500;
+    font-size: 18px;
+    color: #212121;
     line-height: 1.4;
-    /* border: red solid; */
+    font-family: Roboto,Arial,sans-serif;
 }
-#aside2{
-    width: 270px;
+#middle_part{
     height: auto;
-    /* border:red solid; */
-    color: #dbdbdb;
-    font-size: 20px;
-    margin-left: 40px;
-    margin-top: 50px;
-}
-
-
-
-
-article{
-    height: 565px;
-    width: 540px;
-    margin-top: 16px;
-    background-color:white;
-}
-article>div{
-    margin-left: 30px;
-    width: 474px;
-}
-
-article input{
-    margin-top: 60px;
-    width: 474px;
-    height: 40px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-}
-#terms1{
-margin-top: 30px;
-height: 40px;
-
-
-}
-article button{
-    width: 474px;
-    height: 40px;
-    border: none;
-    background-color: #fb641b;
-    color: white;
-    font-size: 20px;
-}
-
-article a{
-    color: #2874f0;
-    text-decoration: none;
-}
-
-article>a{
-    display: block;
-    height: 40px;
     width: auto;
-    color: #2874f0;
-    text-decoration: none;
-    /* border: #2874f0 solid; */
-    text-align: center;
-   margin-top: 300px;
+    background-color: #306892;
+}
 
+#working_part{
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    width: 90%;
+}
+
+#working_part>div>img{
+    height: auto;
+    width: 100%;
+}
+
+
+#brand_promo{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Creates 8 equal-sized columns */
+    justify-content: space-around; /* Justifies the content around */
+    /* You can add other grid properties like grid-gap, padding, etc. here */
+
+}
+.brand1{
+    text-align: center;
+    /* border: black solid; */
+}
+.brand1 img{
+    width: 100%;
+    height: auto;
 }
 
 
