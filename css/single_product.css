@@ -201,7 +201,7 @@ header{
     height: 42px;
     
     justify-content: center;
-    box-shadow: 0px 10px 5px 0px rgb(38, 37, 37);
+    box-shadow: 0px 0px 5px 0px rgb(38, 37, 37);
 }
 #navbar>div{
     font-weight: bold;
@@ -220,6 +220,12 @@ header{
 
 
 /* asideAndArticle design starts */
+
+#asideAndArticle{
+    margin-top: 10px;
+}
+
+
 
 #side_bar{
     width: 270px;
